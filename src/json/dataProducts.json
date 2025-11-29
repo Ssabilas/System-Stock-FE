@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Product A",
+    "category": "Electronics",
+    "price": 299.99,
+    "stock": 20,
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&h=300&fit=crop"
+  },
+  {
+    "id": 2,
+    "name": "Product B",
+    "category": "Furniture",
+    "price": 499.99,
+    "stock": 10,
+    "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=400&h=300&fit=crop"
+  },
+  {
+    "id": 3,
+    "name": "Product C",
+    "category": "Kitchenware",
+    "price": 49.99,
+    "stock": 5,
+    "image": "https://images.unsplash.com/photo-1556911220-bff31c812dba?w=400&h=300&fit=crop"
+  },
+  {
+    "id": 4,
+    "name": "Product D",
+    "category": "Electronics",
+    "price": 199.99,
+    "stock": 15,
+    "image": "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=400&h=300&fit=crop"
+  },
+  {
+    "id": 5,
+    "name": "Product E",
+    "category": "Clothing",
+    "price": 79.99,
+    "stock": 0,
+    "image": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?w=400&h=300&fit=crop"
+  },
+  {
+    "id": 6,
+    "name": "Product F",
+    "category": "Books",
+    "price": 29.99,
+    "stock": 25,
+    "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=400&h=300&fit=crop"
+  },
+  {
+    "id": 7,
+    "name": "Product G",
+    "category": "Electronics",
+    "price": 399.99,
+    "stock": 8,
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&h=300&fit=crop"
+  },
+  {
+    "id": 8,
+    "name": "Product H",
+    "category": "Furniture",
+    "price": 599.99,
+    "stock": 12,
+    "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=400&h=300&fit=crop"
+  },
+  {
+    "id": 9,
+    "name": "Product I",
+    "category": "Kitchenware",
+    "price": 89.99,
+    "stock": 3,
+    "image": "https://images.unsplash.com/photo-1556911220-bff31c812dba?w=400&h=300&fit=crop"
+  },
+  {
+    "id": 10,
+    "name": "Product J",
+    "category": "Clothing",
+    "price": 119.99,
+    "stock": 18,
+    "image": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?w=400&h=300&fit=crop"
+  },
+  {
+    "id": 11,
+    "name": "Product K",
+    "category": "Books",
+    "price": 39.99,
+    "stock": 0,
+    "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=400&h=300&fit=crop"
+  },
+  {
+    "id": 12,
+    "name": "Product L",
+    "category": "Electronics",
+    "price": 599.99,
+    "stock": 22,
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&h=300&fit=crop"
+  }
+]

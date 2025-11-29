@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #241E4F;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+  width: 100%;
+}
+
+.login-card {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  width: 100%;
+  max-width: 300px; /* kecil */
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.login-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.market-name {
+  color: #2c3e50;
+  font-size: 1.5rem; /* kecil */
+  font-weight: 700;
+  margin-bottom: 0;
+  letter-spacing: -0.3px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 6px;
+  color: #2c3e50;
+  font-weight: 600;
+  font-size: 0.85rem; /* kecil */
+  letter-spacing: -0.1px;
+  text-align: left;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px 12px; /* kecil */
+  border: 1.5px solid #e8ecef;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  transition: all 0.3s ease;
+  background-color: #ffffff;
+  color: #2c3e50;
+  font-weight: 500;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: #667eea;
+  background-color: #ffffff;
+  box-shadow: 0 0 0 2px rgba(102, 126, 234, 0.1);
+  transform: translateY(-1px);
+}
+
+.form-input::placeholder {
+  color: #a0aec0;
+  font-weight: 400;
+}
+
+.login-button {
+  background: #241E4F;
+  color: white;
+  border: none;
+  padding: 11px 16px; /* kecil */
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 5px;
+  letter-spacing: 0.3px;
+}
+
+.login-button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+}
+
+.login-button:active {
+  transform: translateY(0);
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+  .login-card {
+    padding: 20px 15px;
+    margin: 10px;
+    max-width: 280px;
+  }
+  
+  .market-name {
+    font-size: 1.4rem;
+  }
+  
+  .login-header {
+    margin-bottom: 15px;
+  }
+  
+  .form-input {
+    padding: 9px 11px;
+  }
+  
+  .login-button {
+    padding: 10px 14px;
+    font-size: 0.85rem;
+  }
+}
